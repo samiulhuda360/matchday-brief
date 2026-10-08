@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block clock %}{{ league }} &middot; as of {{ now.strftime("%a %d %b %Y, %H:%M") }}{% endblock %}
+{% block main %}
+<section class="kpis">
+  <div class="kpi"><b>{{ stats.summaries }}</b><span>previews and recaps</span></div>
+  <div class="kpi"><b>{{ stats.grounded }}/{{ stats.summaries }}</b><span>fully grounded</span></div>
+  <div class="kpi"><b>{{ stats.supported }}/{{ stats.numbers }}</b><span>numbers found in the data</span></div>
+  <div class="kpi"><b>{% for k, v in stats.sources.items() %}{{ v }} {{ k }}{% if not loop.last %} &middot; {% endif %}{% endfor %}</b><span>written by</span></div>
+</section>
+
+<div class="grid">
+  <section class="card">
+    <h2>League table</h2>
+    <table class="table">
+      <thead><tr><th>#</th><th class="l">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th><th class="l">Form</th></tr></thead>
+      <tbody>
+      {% for r in table %}
+        <tr><td>{{ r.position }}</td><td class="l team">{{ r.team }}</td><td>{{ r.played }}</td><td>{{ r.won }}</td><td>{{ r.drawn }}</td><td>{{ r.lost }}</td>
+          <td>{{ "%+d"|format(r.goal_difference) if r.goal_difference else 0 }}</td><td><b>{{ r.points }}</b></td>
+          <td class="l">{% for f in r.form %}<span class="pill {{ f }}">{{ f }}</span>{% endfor %}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>Notifications</h2>
+    {% if notifications %}
+    <ul class="feed">
+      {% for n in notifications %}
+      <li><span class="tag {{ n.kind }}">{{ n.kind }}</span><b>{{ n.title }}</b><p>{{ n.body }}</p></li>
+      {% endfor %}
+    </ul>
+    {% else %}<p class="muted">No reminders or alerts sent yet.</p>{% endif %}
+    <h3>Job runs</h3>
+    <table class="table small">
+      <thead><tr><th class="l">Ran at</th><th>Results</th><th>Previews</th><th>Recaps</th><th>Sent</th></tr></thead>
+      <tbody>{% for r in runs %}<tr><td class="l">{{ r.ran_at.replace("T", " ") }}</td><td>{{ r.new_results }}</td><td>{{ r.previews }}</td><td>{{ r.recaps }}</td><td>{{ r.reminders + r.alerts }}</td></tr>{% endfor %}</tbody>
+    </table>
+  </section>
+</div>
+
+<section class="card">
+  <h2>Coming up</h2>
+  <div class="matches">
+  {% for m, v in upcoming %}
+    <a class="match" href="/match/{{ m.id }}">
+      <div class="when">{{ m.kickoff.strftime("%a %d %b, %H:%M") }} &middot; {{ m.round }}</div>
+      <div class="teams">{{ m.home }} <span class="vs">vs</span> {{ m.away }}</div>
+      {% if v %}<p class="text">{{ v.html|safe }}</p>
+      <div class="meta"><span class="badge {{ 'ok' if v.report.grounded else 'bad' }}">{{ v.report.supported }}/{{ v.report.total }} numbers checked</span><span class="src">{{ v.source }}</span></div>{% endif %}
+    </a>
+  {% else %}<p class="muted">No upcoming fixtures.</p>{% endfor %}
+  </div>
+</section>
+
+<section class="card">
+  <h2>Latest results</h2>
+  <div class="matches">
+  {% for m, v in results %}
+    <a class="match" href="/match/{{ m.id }}">
+      <div class="when">{{ m.kickoff.strftime("%a %d %b") }} &middot; {{ m.round }}</div>
+      <div class="teams">{{ m.home }} <span class="score">{{ m.ft[0] }}-{{ m.ft[1] }}</span> {{ m.away }}</div>
+      {% if v %}<p class="text">{{ v.html|safe }}</p>
+      <div class="meta"><span class="badge {{ 'ok' if v.report.grounded else 'bad' }}">{{ v.report.supported }}/{{ v.report.total }} numbers checked</span><span class="src">{{ v.source }}</span></div>{% endif %}
+    </a>
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}{{ match.home }} vs {{ match.away }} - Matchday Brief{% endblock %}
+{% block clock %}{{ match.league }} &middot; {{ match.round }}{% endblock %}
+{% block main %}
+<p><a href="/" class="back">&larr; Dashboard</a></p>
+<section class="card hero">
+  <div class="when">{{ match.kickoff.strftime("%A %d %B %Y, %H:%M") }}</div>
+  <div class="teams big">{{ match.home }}
+    {% if match.played %}<span class="score">{{ match.ft[0] }}-{{ match.ft[1] }}</span>{% else %}<span class="vs">vs</span>{% endif %}
+    {{ match.away }}</div>
+</section>
+{% if view %}
+<div class="grid">
+  <div>
+  <section class="card">
+    <h2>{{ kind|capitalize }}</h2>
+    <p class="text lead">{{ view.html|safe }}</p>
+    <div class="meta"><span class="badge {{ 'ok' if view.report.grounded else 'bad' }}">{{ view.report.supported }}/{{ view.report.total }} numbers found in the data</span>
+      <span class="src">written by: {{ view.source }}</span></div>
+    {% if view.report.unsupported %}<p class="warn">Not in the data: {{ view.report.unsupported|join(", ") }}</p>{% endif %}
+    {% if view.report.stray_teams %}<p class="warn">Other teams mentioned: {{ view.report.stray_teams|join(", ") }}</p>{% endif %}
+    <p class="legend"><mark class="ok">12</mark> found in the fact sheet &nbsp; <mark class="bad">12</mark> not in the fact sheet</p>
+  </section>
+  <section class="card">
+    <h2>Check a draft</h2>
+    <form method="get" class="draft">
+      <textarea name="draft" rows="4" placeholder="Paste or write a sentence about this match">{{ draft }}</textarea>
+      <button type="submit">Check numbers</button>
+    </form>
+    {% if checked %}
+    <p class="text lead">{{ checked.html|safe }}</p>
+    <div class="meta"><span class="badge {{ 'ok' if checked.report.grounded else 'bad' }}">{{ checked.report.supported }}/{{ checked.report.total }} numbers found in the data</span></div>
+    {% if checked.report.unsupported %}<p class="warn">Not in the data: {{ checked.report.unsupported|join(", ") }}</p>{% endif %}
+    {% if checked.report.stray_teams %}<p class="warn">Other teams mentioned: {{ checked.report.stray_teams|join(", ") }}</p>{% endif %}
+    {% endif %}
+  </section>
+  </div>
+  <section class="card">
+    <h2>Fact sheet</h2>
+    <dl class="facts">
+      {% for f in view.sheet.facts %}<dt>{{ f.label }}</dt><dd>{{ f.value }}</dd>{% endfor %}
+    </dl>
+  </section>
+</div>
+{% else %}
+<section class="card"><p class="muted">No {{ kind }} written yet. Previews are written in the week before kick-off.</p></section>
+{% endif %}
+{% endblock %}
