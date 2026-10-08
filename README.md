@@ -8,18 +8,21 @@ comes from the match data**.
 
 ## What it does
 
-- **Tracks a league.** It loads fixtures and results from free, public-domain [openfootball](https://github.com/openfootball/football.json)
-  JSON files (a file or a URL) and keeps the league table, form, home and away records and head-to-head results in SQLite.
-- **Runs on a schedule.** One `tick` refreshes the data and does whatever has become due. `watch` repeats it on an interval.
-- **Sends reminders and alerts.** It sends a reminder before a followed team's kick-off and an alert at full time. Each
-  goes out once, to the console, a JSON outbox, Telegram or a webhook.
-- **Writes previews and recaps.** Each one is built from a fact sheet: the score, the table, form, records and the last
-  meeting. Any OpenAI-compatible model can write it (Gemini by default), or a built-in template if there is no API key.
-- **Checks every number.** It pulls every number, scoreline, time, position and named team out of the text and checks
-  each against the fact sheet. Text that fails gets one retry with the bad values listed, and after that the
-  template is used instead. Nothing ungrounded is published.
-- **Shows it all on a dashboard.** The dashboard shows the table, upcoming fixtures, results, sent notifications and job
-  runs. Each summary has its numbers highlighted, and a box lets you check any draft against the same facts.
+Give it your league's fixture list and it keeps the table, form and head-to-head records up to date on its own. It
+reminds you before your team plays and tells you the result at full time, by message or on a web page. It also
+writes a short preview of each match and a recap of each result, and before any of that text is shown, every
+number in it (scores, positions, points, dates) is checked against the real results. If the writing tool invents a
+number, that draft is thrown away.
+
+**Key features**
+
+- **Tracks a league** from free, public fixture files, keeping the table, form, home and away records and head-to-head.
+- **Runs on a schedule** and does only what has become due.
+- **Sends reminders and alerts** once each, by message (Telegram), to another app (webhook) or to the screen.
+- **Writes previews and recaps** from a fact sheet, using an AI model or a built-in template when there is no model.
+- **Checks every number** in the text against the fact sheet, retries once with the mistakes listed, and otherwise
+  falls back to the template. Nothing unchecked is published.
+- **Shows it all on a dashboard** with each number highlighted, plus a box to check any draft you paste in.
 
 ## A real-life example
 
@@ -35,12 +38,17 @@ positions, the half-time score and the date of the last meeting. If the model wr
 
 ## How you would use it
 
-1. Run `matchday demo --serve` to see a full sample season on the dashboard.
-2. Point `MATCHDAY_SOURCE` at your league's openfootball file or URL and pick the teams to follow.
-3. Choose where alerts go (`MATCHDAY_NOTIFY=telegram`, for example) and run `matchday watch` on a server, or
-   `matchday tick` from cron.
-4. Optionally set `AI_API_KEY` for model-written text. Without it, the template writer is used and everything else
-   still works.
+1. Start the sample season (one command, see [Setup](#setup)) and open the dashboard in your browser to see what
+   you get: the table, the coming fixtures, the results and a written preview or recap for each.
+2. Swap the sample for your own league's fixture file, and tick the teams you want reminders for.
+3. Choose where messages go: your Telegram group, another app, or just the screen.
+4. Leave it running. Reminders arrive two days before kick-off, results at full time, and the previews and recaps
+   appear on the dashboard and in the message feed.
+5. Writing your own match report? Paste it into the **Check a draft** box and any number that doesn't match the
+   results is marked in red.
+
+An AI model writes the better text when you give it a key; without one, everything still works with the built-in
+template writer. The exact commands and settings are under [Setup](#setup) and [Configuration](#configuration).
 
 ## Screenshots
 
