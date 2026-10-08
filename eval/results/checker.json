@@ -1,0 +1,58 @@
+{
+  "cases": 179,
+  "ungrounded_cases": 124,
+  "accuracy": 0.9721,
+  "precision": 1.0,
+  "recall": 0.9597,
+  "confusion": {
+    "tp": 119,
+    "fp": 0,
+    "tn": 55,
+    "fn": 5
+  },
+  "by_origin": {
+    "template": {
+      "cases": 32,
+      "correct": 32
+    },
+    "perturbed": {
+      "cases": 64,
+      "correct": 64
+    },
+    "stray-team": {
+      "cases": 32,
+      "correct": 32
+    },
+    "handwritten": {
+      "cases": 51,
+      "correct": 46
+    }
+  },
+  "misses": [
+    {
+      "id": "handwritten-145",
+      "expected_flag": true,
+      "note": "wrong count; 3 appears elsewhere in the sheet"
+    },
+    {
+      "id": "handwritten-148",
+      "expected_flag": true,
+      "note": "'second' without a place word is not checked"
+    },
+    {
+      "id": "handwritten-170",
+      "expected_flag": true,
+      "note": "position of the other team"
+    },
+    {
+      "id": "handwritten-173",
+      "expected_flag": true,
+      "note": "invented statistic; 4 appears elsewhere in the sheet"
+    },
+    {
+      "id": "handwritten-179",
+      "expected_flag": true,
+      "note": "wrong streak; 4 appears elsewhere in the sheet"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "method": "Published summaries read line by line against their fact sheets by a person; every claim, numeric or not, labelled correct or wrong.",
+  "reviewed": 8,
+  "numbers_reviewed": 151,
+  "summaries_with_errors": 0,
+  "first_draft_flags": [
+    {
+      "match_id": "2026-10-03-westmere-albion-harbourside-fc",
+      "flagged": [
+        "4-4"
+      ],
+      "verdict": "correct flag: '4-4 goal winning margin' is not a real margin"
+    }
+  ],
+  "summaries": [
+    {
+      "match_id": "2026-09-19-copperhill-town-northfield-rovers",
+      "kind": "recap",
+      "numbers": 19,
+      "factual_errors": [],
+      "note": "'second consecutive defeat' checked against form W W W L L: correct"
+    },
+    {
+      "match_id": "2026-09-20-stonebridge-city-westmere-albion",
+      "kind": "recap",
+      "numbers": 13,
+      "factual_errors": [],
+      "note": "'the visitors broke the deadlock': Westmere were away, correct"
+    },
+    {
+      "match_id": "2026-09-26-westmere-albion-eastvale-united",
+      "kind": "recap",
+      "numbers": 14,
+      "factual_errors": [],
+      "note": ""
+    },
+    {
+      "match_id": "2026-10-03-larchmont-wanderers-northfield-rovers",
+      "kind": "recap",
+      "numbers": 20,
+      "factual_errors": [],
+      "note": ""
+    },
+    {
+      "match_id": "2026-10-10-harbourside-fc-millbrook-athletic",
+      "kind": "preview",
+      "numbers": 18,
+      "factual_errors": [],
+      "note": "'0-1 away victory' for Harbourside: correct orientation"
+    },
+    {
+      "match_id": "2026-10-11-eastvale-united-copperhill-town",
+      "kind": "preview",
+      "numbers": 19,
+      "factual_errors": [],
+      "note": "'won four of their last five': correct"
+    },
+    {
+      "match_id": "2026-10-17-stonebridge-city-northfield-rovers",
+      "kind": "preview",
+      "numbers": 20,
+      "factual_errors": [],
+      "note": "'no defeats' and away record wording: correct"
+    },
+    {
+      "match_id": "2026-10-24-northfield-rovers-millbrook-athletic",
+      "kind": "preview",
+      "numbers": 28,
+      "factual_errors": [],
+      "note": "'searching for their first away victory': away record 0-0-3, correct"
+    }
+  ]
+}

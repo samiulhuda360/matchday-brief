@@ -1,0 +1,550 @@
+{
+  "summary": {
+    "model": "gemini-flash-lite-latest",
+    "summaries": 24,
+    "first_draft_grounded": 23,
+    "first_draft_numbers": 476,
+    "first_draft_numbers_supported": 475,
+    "published_by": {
+      "model": 23,
+      "model-retry": 1,
+      "template": 0
+    },
+    "published_grounded": 24,
+    "mean_words": 101.5,
+    "model_calls": 0,
+    "cache_hits": 25
+  },
+  "rows": [
+    {
+      "match_id": "2026-09-19-copperhill-town-northfield-rovers",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "On Saturday 19 September 2026, Northfield Rovers secured a 1-2 victory over Copperhill Town in Acme Valley League 2026/27 Matchday 6. It was a match of two halves as Copperhill Town led 1-0 at the interval, but Northfield Rovers mounted a comeback with two goals after the break to seal a 1 goal winning margin.\nThe result leaves Northfield Rovers 1st of 8 with 16 points from 6 matches, extending their unbeaten run to 6 matches. Meanwhile, Copperhill Town dropped to 3rd of 8, holding 10 points from 6 matches after suffering their second consecutive defeat.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 96,
+      "text": "On Saturday 19 September 2026, Northfield Rovers secured a 1-2 victory over Copperhill Town in Acme Valley League 2026/27 Matchday 6. It was a match of two halves as Copperhill Town led 1-0 at the interval, but Northfield Rovers mounted a comeback with two goals after the break to seal a 1 goal winning margin.\nThe result leaves Northfield Rovers 1st of 8 with 16 points from 6 matches, extending their unbeaten run to 6 matches. Meanwhile, Copperhill Town dropped to 3rd of 8, holding 10 points from 6 matches after suffering their second consecutive defeat."
+    },
+    {
+      "match_id": "2026-09-19-eastvale-united-harbourside-fc",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 16,
+        "numbers_supported": 16,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Eastvale United secured a hard-fought victory on Saturday 19 September 2026, defeating Harbourside FC 1-0 in their Acme Valley League 2026/27 Matchday 6 fixture. The decisive moment arrived early, with the hosts establishing a 1-0 advantage by half-time. A scoreless second half preserved the winning margin, sealing the single total goal of the contest.\nWith this result, Eastvale United climbed from 3rd to 2nd in the table out of 8 teams, bringing their total to 12 points from 6 matches. Meanwhile, Harbourside FC remained unmoved in 4th place out of 8, holding on to 7 points from 6 matches.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 16,
+        "numbers_supported": 16,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 99,
+      "text": "Eastvale United secured a hard-fought victory on Saturday 19 September 2026, defeating Harbourside FC 1-0 in their Acme Valley League 2026/27 Matchday 6 fixture. The decisive moment arrived early, with the hosts establishing a 1-0 advantage by half-time. A scoreless second half preserved the winning margin, sealing the single total goal of the contest.\nWith this result, Eastvale United climbed from 3rd to 2nd in the table out of 8 teams, bringing their total to 12 points from 6 matches. Meanwhile, Harbourside FC remained unmoved in 4th place out of 8, holding on to 7 points from 6 matches."
+    },
+    {
+      "match_id": "2026-09-19-larchmont-wanderers-millbrook-athletic",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Larchmont Wanderers secured a crucial 1-0 victory over Millbrook Athletic in Acme Valley League 2026/27 action on Saturday 19 September 2026. The decisive breakthrough came in the first half, leaving the half-time score at 1-0, before a quiet second half produced zero goals.\nThe 1-goal winning margin lifted Larchmont Wanderers up from 8th to 5th of 8 in the standings, pushing them to 6 points from 6 matches and extending their unbeaten run to 3 matches. Meanwhile, the result dropped Millbrook Athletic down from 7th to 8th of 8, leaving them with 4 points from 6 matches.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 97,
+      "text": "Larchmont Wanderers secured a crucial 1-0 victory over Millbrook Athletic in Acme Valley League 2026/27 action on Saturday 19 September 2026. The decisive breakthrough came in the first half, leaving the half-time score at 1-0, before a quiet second half produced zero goals.\nThe 1-goal winning margin lifted Larchmont Wanderers up from 8th to 5th of 8 in the standings, pushing them to 6 points from 6 matches and extending their unbeaten run to 3 matches. Meanwhile, the result dropped Millbrook Athletic down from 7th to 8th of 8, leaving them with 4 points from 6 matches."
+    },
+    {
+      "match_id": "2026-09-20-stonebridge-city-westmere-albion",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 13,
+        "numbers_supported": 13,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Westmere Albion secured a hard-fought victory on Sunday 20 September 2026, defeating Stonebridge City 1-0 in Matchday 6 of the Acme Valley League 2026/27. After a tightly contested first half ended scoreless, the visitors broke the deadlock after the break to seal the win by a single goal.\nThe result lifts Westmere Albion up to 5th place out of 8 teams with 7 points from 6 matches. Meanwhile, the narrow defeat drops Stonebridge City down to 7th in the standings, leaving them with 5 points from their 6 matches so far this season.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 13,
+        "numbers_supported": 13,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 93,
+      "text": "Westmere Albion secured a hard-fought victory on Sunday 20 September 2026, defeating Stonebridge City 1-0 in Matchday 6 of the Acme Valley League 2026/27. After a tightly contested first half ended scoreless, the visitors broke the deadlock after the break to seal the win by a single goal.\nThe result lifts Westmere Albion up to 5th place out of 8 teams with 7 points from 6 matches. Meanwhile, the narrow defeat drops Stonebridge City down to 7th in the standings, leaving them with 5 points from their 6 matches so far this season."
+    },
+    {
+      "match_id": "2026-09-26-copperhill-town-larchmont-wanderers",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Larchmont Wanderers secured a hard-fought victory on Saturday 26 September 2026, defeating Copperhill Town 1-2 in Matchday 7 of the Acme Valley League 2026/27. The visitors established a half-time lead with a score of 0-1. Both teams traded goals in the second half, resulting in a total of 3 goals and a winning margin of 1 goal.\nFollowing the result, Larchmont Wanderers climbed from 6th to 4th of 8 in the league standings, reaching 9 points from 7 matches and extending their unbeaten run to 4 matches. Copperhill Town remained 3rd of 8 with 10 points from 7 matches.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 99,
+      "text": "Larchmont Wanderers secured a hard-fought victory on Saturday 26 September 2026, defeating Copperhill Town 1-2 in Matchday 7 of the Acme Valley League 2026/27. The visitors established a half-time lead with a score of 0-1. Both teams traded goals in the second half, resulting in a total of 3 goals and a winning margin of 1 goal.\nFollowing the result, Larchmont Wanderers climbed from 6th to 4th of 8 in the league standings, reaching 9 points from 7 matches and extending their unbeaten run to 4 matches. Copperhill Town remained 3rd of 8 with 10 points from 7 matches."
+    },
+    {
+      "match_id": "2026-09-26-northfield-rovers-harbourside-fc",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 17,
+        "numbers_supported": 17,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Northfield Rovers secured a hard-fought 1-0 victory against Harbourside FC in the Acme Valley League 2026/27 on Saturday 26 September 2026. Following a scoreless first half on Matchday 7, the decisive second-half goal settled the contest with a winning margin of 1 goal, bringing the total goals for the fixture to 1.\nThe result maintains Northfield Rovers in 1st place of 8, moving them to 19 points from 7 matches and extending their unbeaten run to 7 matches. Meanwhile, Harbourside FC dropped to 5th of 8 with 7 points from 7 matches after a scoreless second half sealed their fate.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 17,
+        "numbers_supported": 17,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 100,
+      "text": "Northfield Rovers secured a hard-fought 1-0 victory against Harbourside FC in the Acme Valley League 2026/27 on Saturday 26 September 2026. Following a scoreless first half on Matchday 7, the decisive second-half goal settled the contest with a winning margin of 1 goal, bringing the total goals for the fixture to 1.\nThe result maintains Northfield Rovers in 1st place of 8, moving them to 19 points from 7 matches and extending their unbeaten run to 7 matches. Meanwhile, Harbourside FC dropped to 5th of 8 with 7 points from 7 matches after a scoreless second half sealed their fate."
+    },
+    {
+      "match_id": "2026-09-26-westmere-albion-eastvale-united",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 14,
+        "numbers_supported": 14,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "On Saturday 26 September 2026, Eastvale United secured a narrow victory over Westmere Albion in the Acme Valley League 2026/27 Matchday 7 fixture. Following a scoreless first half, the match was decided by a single second-half goal, handing Eastvale United the win by a 1-goal margin.\nWith this result, Eastvale United holds firm in 2nd place out of 8 in the league standings with 15 points from 7 matches. Meanwhile, Westmere Albion slips to 6th out of 8, holding 7 points from their 7 matches played so far this season.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 14,
+        "numbers_supported": 14,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 90,
+      "text": "On Saturday 26 September 2026, Eastvale United secured a narrow victory over Westmere Albion in the Acme Valley League 2026/27 Matchday 7 fixture. Following a scoreless first half, the match was decided by a single second-half goal, handing Eastvale United the win by a 1-goal margin.\nWith this result, Eastvale United holds firm in 2nd place out of 8 in the league standings with 15 points from 7 matches. Meanwhile, Westmere Albion slips to 6th out of 8, holding 7 points from their 7 matches played so far this season."
+    },
+    {
+      "match_id": "2026-09-27-millbrook-athletic-stonebridge-city",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 24,
+        "numbers_supported": 24,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Millbrook Athletic secured a 3-1 victory over Stonebridge City in Acme Valley League 2026/27 action on Sunday 27 September 2026. The winning side established a 2-1 lead by half-time and added 1 goal after the break, sealing a 2-goal winning margin from the 4 total goals scored in the Matchday 7 fixture.\nThe result lifts Millbrook Athletic up from 8th to 7th of 8 in the league standings, now holding 7 points from 7 matches and improving their recent run to 2 wins, 1 draw, and 2 losses. Meanwhile, Stonebridge City slips to 8th of 8 with 5 points from 7 matches after their fourth defeat in five.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 24,
+        "numbers_supported": 24,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 108,
+      "text": "Millbrook Athletic secured a 3-1 victory over Stonebridge City in Acme Valley League 2026/27 action on Sunday 27 September 2026. The winning side established a 2-1 lead by half-time and added 1 goal after the break, sealing a 2-goal winning margin from the 4 total goals scored in the Matchday 7 fixture.\nThe result lifts Millbrook Athletic up from 8th to 7th of 8 in the league standings, now holding 7 points from 7 matches and improving their recent run to 2 wins, 1 draw, and 2 losses. Meanwhile, Stonebridge City slips to 8th of 8 with 5 points from 7 matches after their fourth defeat in five."
+    },
+    {
+      "match_id": "2026-10-03-copperhill-town-stonebridge-city",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 21,
+        "numbers_supported": 21,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "On Saturday 3 October 2026, Copperhill Town secured a dominant 4-1 victory over Stonebridge City in Acme Valley League 2026/27 Matchday 8. The hosts held a slender 1-0 advantage at the interval before a lively second half unfolded, producing three goals for Copperhill Town and one for Stonebridge City, resulting in a 3-goal winning margin and 5 total goals on the day.\nThe triumph keeps Copperhill Town steady in 3rd place of 8 with 13 points from 8 matches, marking their second win in their last five outings. Meanwhile, Stonebridge City remains rooted at 8th of 8 with 5 points from 8 matches following their fourth defeat in their last five fixtures.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 21,
+        "numbers_supported": 21,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 112,
+      "text": "On Saturday 3 October 2026, Copperhill Town secured a dominant 4-1 victory over Stonebridge City in Acme Valley League 2026/27 Matchday 8. The hosts held a slender 1-0 advantage at the interval before a lively second half unfolded, producing three goals for Copperhill Town and one for Stonebridge City, resulting in a 3-goal winning margin and 5 total goals on the day.\nThe triumph keeps Copperhill Town steady in 3rd place of 8 with 13 points from 8 matches, marking their second win in their last five outings. Meanwhile, Stonebridge City remains rooted at 8th of 8 with 5 points from 8 matches following their fourth defeat in their last five fixtures."
+    },
+    {
+      "match_id": "2026-10-03-larchmont-wanderers-northfield-rovers",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "On Saturday 3 October 2026, Northfield Rovers secured a hard-fought 1-2 victory against Larchmont Wanderers in Matchday 8 of the Acme Valley League 2026/27. Northfield Rovers led 0-1 at the interval, and both sides traded a goal apiece in the second half to seal a 3-goal match.\nThe result extends Northfield Rovers' unbeaten run to 8 matches, keeping them firmly at 1st of 8 in the table with 22 points from 8 matches. Meanwhile, the defeat drops Larchmont Wanderers to 5th of 8 with 9 points from 8 matches, following a run that now stands at 2 wins, 2 draws, and 1 loss.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 103,
+      "text": "On Saturday 3 October 2026, Northfield Rovers secured a hard-fought 1-2 victory against Larchmont Wanderers in Matchday 8 of the Acme Valley League 2026/27. Northfield Rovers led 0-1 at the interval, and both sides traded a goal apiece in the second half to seal a 3-goal match.\nThe result extends Northfield Rovers' unbeaten run to 8 matches, keeping them firmly at 1st of 8 in the table with 22 points from 8 matches. Meanwhile, the defeat drops Larchmont Wanderers to 5th of 8 with 9 points from 8 matches, following a run that now stands at 2 wins, 2 draws, and 1 loss."
+    },
+    {
+      "match_id": "2026-10-03-westmere-albion-harbourside-fc",
+      "kind": "recap",
+      "source": "model-retry",
+      "first_draft": {
+        "grounded": false,
+        "numbers_total": 17,
+        "numbers_supported": 16,
+        "unsupported": [
+          "4-4"
+        ],
+        "stray_teams": []
+      },
+      "first_draft_text": "Westmere Albion cruised to a dominant victory over Harbourside FC on Saturday 3 October 2026 in Matchday 8 of the Acme Valley League 2026/27. The fixture was effectively settled by a blistering first half that saw Westmere Albion surge into a commanding 4-0 lead. After the break, both sides traded a single goal to finish with a total goals count of 6 and a final score of Westmere Albion 5-1 Harbourside FC. The 4-4 goal winning margin lifts Westmere Albion up from 6th to 4th place in the standings with 10 points from 8 matches, while Harbourside FC drops from 5th to 7th with 7 points from 8 matches.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 23,
+        "numbers_supported": 23,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 127,
+      "text": "On Saturday 3 October 2026, Westmere Albion cruised to a 5-1 victory over Harbourside FC in Matchday 8 of the Acme Valley League 2026/27. The match was effectively decided by a dominant first half, which ended with Westmere Albion leading 4-0. After the break, both sides managed 1 goal each, sealing a comfortable 4-goal winning margin from the 6 total goals scored.\nThe result lifts Westmere Albion up from 6th to 4th place in the standings with 10 points from 8 matches, continuing a run that shows 2 wins, 1 draw, and 2 losses in their last five results. Meanwhile, Harbourside FC slips from 5th to 7th place, remaining on 7 points from 8 matches after collecting their fourth consecutive defeat in a tough sequence of form."
+    },
+    {
+      "match_id": "2026-10-04-millbrook-athletic-eastvale-united",
+      "kind": "recap",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Eastvale United secured a hard-fought victory over Millbrook Athletic on Sunday 4 October 2026 in Acme Valley League 2026/27 Matchday 8 action. After a scoreless first half at 0-0, the visitors broke through with 1 second-half goal to decide the contest by a 1-goal margin, sealing a 0-1 final score.\nThe result extends Eastvale United's unbeaten run to 3 matches, leaving them 2nd of 8 in the table with 18 points from 8 matches. Meanwhile, defeat drops Millbrook Athletic to 7th of 8 with 7 points from 8 matches.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 89,
+      "text": "Eastvale United secured a hard-fought victory over Millbrook Athletic on Sunday 4 October 2026 in Acme Valley League 2026/27 Matchday 8 action. After a scoreless first half at 0-0, the visitors broke through with 1 second-half goal to decide the contest by a 1-goal margin, sealing a 0-1 final score.\nThe result extends Eastvale United's unbeaten run to 3 matches, leaving them 2nd of 8 in the table with 18 points from 8 matches. Meanwhile, defeat drops Millbrook Athletic to 7th of 8 with 7 points from 8 matches."
+    },
+    {
+      "match_id": "2026-10-10-harbourside-fc-millbrook-athletic",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Harbourside FC return to home action on Saturday 10 October 2026 at 15:00 for a crucial Acme Valley League 2026/27 Matchday 9 fixture against Millbrook Athletic. Both sides sit level on points with 7 from 8 matches, with Harbourside FC currently 6th and Millbrook Athletic 7th in the standings. Harbourside FC hold a home record of 1 won, 0 drawn, and 2 lost, while Millbrook Athletic arrive looking to reverse a winless away run of 0 won, 0 drawn, and 3 lost. These teams previously met on 22 August, when Harbourside FC claimed a 0-1 away victory.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 97,
+      "text": "Harbourside FC return to home action on Saturday 10 October 2026 at 15:00 for a crucial Acme Valley League 2026/27 Matchday 9 fixture against Millbrook Athletic. Both sides sit level on points with 7 from 8 matches, with Harbourside FC currently 6th and Millbrook Athletic 7th in the standings. Harbourside FC hold a home record of 1 won, 0 drawn, and 2 lost, while Millbrook Athletic arrive looking to reverse a winless away run of 0 won, 0 drawn, and 3 lost. These teams previously met on 22 August, when Harbourside FC claimed a 0-1 away victory."
+    },
+    {
+      "match_id": "2026-10-10-northfield-rovers-westmere-albion",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 25,
+        "numbers_supported": 25,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Northfield Rovers welcome Westmere Albion to the Acme Valley League on Saturday 10 October 2026, with kick-off at 15:00. Northfield Rovers sit 1st of 8 in the standings, having collected 22 points from 8 matches through a formidable run of 7 wins, 1 drawn, and 0 lost. They boast a strong home record of 4 won, 0 drawn, and 0 lost, and last faced Westmere Albion on 22 August, securing a 2-4 away victory.\nWestmere Albion arrive positioned 4th of 8 with 10 points from 8 matches, recording 3 won, 1 drawn, and 4 lost alongside an away record of 1 won, 0 drawn, and 2 lost.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 25,
+        "numbers_supported": 25,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 107,
+      "text": "Northfield Rovers welcome Westmere Albion to the Acme Valley League on Saturday 10 October 2026, with kick-off at 15:00. Northfield Rovers sit 1st of 8 in the standings, having collected 22 points from 8 matches through a formidable run of 7 wins, 1 drawn, and 0 lost. They boast a strong home record of 4 won, 0 drawn, and 0 lost, and last faced Westmere Albion on 22 August, securing a 2-4 away victory.\nWestmere Albion arrive positioned 4th of 8 with 10 points from 8 matches, recording 3 won, 1 drawn, and 4 lost alongside an away record of 1 won, 0 drawn, and 2 lost."
+    },
+    {
+      "match_id": "2026-10-10-stonebridge-city-larchmont-wanderers",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 22,
+        "numbers_supported": 22,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Stonebridge City return to home soil on Saturday 10 October 2026 for a 15:00 kick-off in Matchday 9 of the Acme Valley League 2026/27. Stonebridge City sit 8th of 8 with 5 points from 8 matches, searching for their first home victory after recording 0 wins, 1 draw, and 2 losses.\nLarchmont Wanderers travel to the fixture positioned 5th of 8 with 9 points. They hold a 4-point lead over their hosts and bring an away record of 1 won, 1 drawn, and 2 lost. When these teams last met this season on 22 August, the match ended in a 0-0 draw.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 22,
+        "numbers_supported": 22,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 102,
+      "text": "Stonebridge City return to home soil on Saturday 10 October 2026 for a 15:00 kick-off in Matchday 9 of the Acme Valley League 2026/27. Stonebridge City sit 8th of 8 with 5 points from 8 matches, searching for their first home victory after recording 0 wins, 1 draw, and 2 losses.\nLarchmont Wanderers travel to the fixture positioned 5th of 8 with 9 points. They hold a 4-point lead over their hosts and bring an away record of 1 won, 1 drawn, and 2 lost. When these teams last met this season on 22 August, the match ended in a 0-0 draw."
+    },
+    {
+      "match_id": "2026-10-11-eastvale-united-copperhill-town",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Eastvale United return to action on Sunday 11 October 2026 at 14:00 in Matchday 9 of the Acme Valley League 2026/27. Sitting 2nd of 8 with 18 points, Eastvale United host Copperhill Town, who lie 3rd of 8 with 13 points. Eastvale United boast a strong home record of 3 won, 0 drawn, 0 lost, and have won four of their last five matches. Copperhill Town arrive looking to repeat their previous success, having claimed a 1-0 victory when these sides last met on 23 August.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 86,
+      "text": "Eastvale United return to action on Sunday 11 October 2026 at 14:00 in Matchday 9 of the Acme Valley League 2026/27. Sitting 2nd of 8 with 18 points, Eastvale United host Copperhill Town, who lie 3rd of 8 with 13 points. Eastvale United boast a strong home record of 3 won, 0 drawn, 0 lost, and have won four of their last five matches. Copperhill Town arrive looking to repeat their previous success, having claimed a 1-0 victory when these sides last met on 23 August."
+    },
+    {
+      "match_id": "2026-10-17-larchmont-wanderers-eastvale-united",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 26,
+        "numbers_supported": 26,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Larchmont Wanderers return to action on Saturday 17 October 2026 at 15:00 for Matchday 10 of the Acme Valley League 2026/27. Larchmont sit 5th in the table with 9 points from their 8 matches, boasting a record of 2 won, 3 drawn, and 3 lost. Their recent form shows 2 wins, 2 draws, and 1 loss.\nThey face a tough test against 2nd-placed Eastvale United, who arrive holding an 18-point tally from 8 matches following 6 wins and 2 losses. Eastvale previously defeated Larchmont 3-1 on 29 August. With Eastvale leading the points gap by 9, Larchmont look to improve upon their 1 won, 2 drawn, and 1 lost home record.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 26,
+        "numbers_supported": 26,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 111,
+      "text": "Larchmont Wanderers return to action on Saturday 17 October 2026 at 15:00 for Matchday 10 of the Acme Valley League 2026/27. Larchmont sit 5th in the table with 9 points from their 8 matches, boasting a record of 2 won, 3 drawn, and 3 lost. Their recent form shows 2 wins, 2 draws, and 1 loss.\nThey face a tough test against 2nd-placed Eastvale United, who arrive holding an 18-point tally from 8 matches following 6 wins and 2 losses. Eastvale previously defeated Larchmont 3-1 on 29 August. With Eastvale leading the points gap by 9, Larchmont look to improve upon their 1 won, 2 drawn, and 1 lost home record."
+    },
+    {
+      "match_id": "2026-10-17-millbrook-athletic-westmere-albion",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 23,
+        "numbers_supported": 23,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Millbrook Athletic return to action on Saturday 17 October 2026 at 15:00, welcoming Westmere Albion to Matchday 10 of the Acme Valley League 2026/27. Millbrook Athletic sit 7th of 8 with 7 points from 8 matches, holding a home record of 2 wins, 1 drawn, and 2 lost.\nVisiting Westmere Albion occupy 4th of 8 with 10 points from 8 matches, leading by 3 points. The visitors carry an away record of 1 won, 0 drawn, and 2 lost into this clash. These sides last met this season on 29 August, when Westmere Albion secured a 3-0 victory.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 23,
+        "numbers_supported": 23,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 98,
+      "text": "Millbrook Athletic return to action on Saturday 17 October 2026 at 15:00, welcoming Westmere Albion to Matchday 10 of the Acme Valley League 2026/27. Millbrook Athletic sit 7th of 8 with 7 points from 8 matches, holding a home record of 2 wins, 1 drawn, and 2 lost.\nVisiting Westmere Albion occupy 4th of 8 with 10 points from 8 matches, leading by 3 points. The visitors carry an away record of 1 won, 0 drawn, and 2 lost into this clash. These sides last met this season on 29 August, when Westmere Albion secured a 3-0 victory."
+    },
+    {
+      "match_id": "2026-10-17-stonebridge-city-northfield-rovers",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Stonebridge City return to action in the Acme Valley League 2026/27 on Saturday 17 October 2026 at 15:00, welcoming Northfield Rovers for Matchday 10. Stonebridge City sit 8th in the table with 5 points from 8 matches, looking to reverse a tough run that includes 5 losses. Their home record stands at 0 won, 1 drawn, and 2 lost.\nIn contrast, Northfield Rovers arrive top of the standings in 1st place with 22 points, boasting 7 wins and no defeats. Their away form is formidable with 3 wins and 1 draw. The sides last met on 29 August, when Northfield Rovers claimed a 2-1 victory.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 105,
+      "text": "Stonebridge City return to action in the Acme Valley League 2026/27 on Saturday 17 October 2026 at 15:00, welcoming Northfield Rovers for Matchday 10. Stonebridge City sit 8th in the table with 5 points from 8 matches, looking to reverse a tough run that includes 5 losses. Their home record stands at 0 won, 1 drawn, and 2 lost.\nIn contrast, Northfield Rovers arrive top of the standings in 1st place with 22 points, boasting 7 wins and no defeats. Their away form is formidable with 3 wins and 1 draw. The sides last met on 29 August, when Northfield Rovers claimed a 2-1 victory."
+    },
+    {
+      "match_id": "2026-10-18-copperhill-town-harbourside-fc",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Copperhill Town return to Acme Valley League action on Sunday 18 October 2026 at 14:00, hosting Harbourside FC for Matchday 10. Copperhill Town sit 3rd in the table with 13 points from 8 matches, boasting 16 goals scored and a strong home record of 3 wins. They previously defeated Harbourside FC 2-1 away on 30 August.\nMeanwhile, Harbourside FC arrive in 6th place with 7 points from their 8 matches. Having collected just 1 away win and suffering 4 losses in their last five outings, Harbourside FC face a tough task as they look to close the 6-point gap against Copperhill Town.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 18,
+        "numbers_supported": 18,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 102,
+      "text": "Copperhill Town return to Acme Valley League action on Sunday 18 October 2026 at 14:00, hosting Harbourside FC for Matchday 10. Copperhill Town sit 3rd in the table with 13 points from 8 matches, boasting 16 goals scored and a strong home record of 3 wins. They previously defeated Harbourside FC 2-1 away on 30 August.\nMeanwhile, Harbourside FC arrive in 6th place with 7 points from their 8 matches. Having collected just 1 away win and suffering 4 losses in their last five outings, Harbourside FC face a tough task as they look to close the 6-point gap against Copperhill Town."
+    },
+    {
+      "match_id": "2026-10-24-eastvale-united-stonebridge-city",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Eastvale United return to Acme Valley League 2026/27 action on Saturday 24 October 2026 at 15:00, welcoming Stonebridge City for Matchday 11. Eastvale United sit 2nd of 8 with 18 points from 8 matches, boasting a strong home record of 3 wins and four victories in their last five outings. Meanwhile, Stonebridge City occupy 8th of 8 with 5 points, looking to bounce back from a difficult run. The sides previously met on 5 September, where Eastvale United claimed a 0-2 away win, and they now hold a 13-point lead over their visitors heading into this latest clash.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 19,
+        "numbers_supported": 19,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 98,
+      "text": "Eastvale United return to Acme Valley League 2026/27 action on Saturday 24 October 2026 at 15:00, welcoming Stonebridge City for Matchday 11. Eastvale United sit 2nd of 8 with 18 points from 8 matches, boasting a strong home record of 3 wins and four victories in their last five outings. Meanwhile, Stonebridge City occupy 8th of 8 with 5 points, looking to bounce back from a difficult run. The sides previously met on 5 September, where Eastvale United claimed a 0-2 away win, and they now hold a 13-point lead over their visitors heading into this latest clash."
+    },
+    {
+      "match_id": "2026-10-24-northfield-rovers-millbrook-athletic",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 28,
+        "numbers_supported": 28,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Northfield Rovers return to Acme Valley League 2026/27 action on Saturday 24 October 2026 at 15:00, welcoming Millbrook Athletic for Matchday 11. Northfield Rovers sit 1st of 8 with 22 points from 8 matches, boasting an unbeaten home record of 4 won, 0 drawn, 0 lost. Their strong run includes 7 wins, 1 draw, and 0 lost overall, alongside a recent form of 4 wins, 1 draw, and 0 losses.\nMillbrook Athletic arrive in 7th of 8 with 7 points from 8 matches, searching for their first away victory following an away record of 0 won, 0 drawn, and 3 lost. The sides previously met on 5 September, ending in a 0-0 draw.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 28,
+        "numbers_supported": 28,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 113,
+      "text": "Northfield Rovers return to Acme Valley League 2026/27 action on Saturday 24 October 2026 at 15:00, welcoming Millbrook Athletic for Matchday 11. Northfield Rovers sit 1st of 8 with 22 points from 8 matches, boasting an unbeaten home record of 4 won, 0 drawn, 0 lost. Their strong run includes 7 wins, 1 draw, and 0 lost overall, alongside a recent form of 4 wins, 1 draw, and 0 losses.\nMillbrook Athletic arrive in 7th of 8 with 7 points from 8 matches, searching for their first away victory following an away record of 0 won, 0 drawn, and 3 lost. The sides previously met on 5 September, ending in a 0-0 draw."
+    },
+    {
+      "match_id": "2026-10-24-westmere-albion-copperhill-town",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Westmere Albion return to home soil on Saturday 24 October 2026 for a Matchday 11 clash in the Acme Valley League 2026/27. Kick-off is at 15:00 against Copperhill Town. Westmere Albion currently sit 4th of 8 in the table with 10 points from 8 matches, boasting a home record of 2 won, 1 drawn, and 2 lost.\nCopperhill Town arrive in 3rd of 8 with 13 points from 8 matches, holding a 3 points advantage over their hosts. This meeting follows their previous encounter on 5 September, where Copperhill Town secured a 4-2 victory. Both sides look to build consistency from mixed recent form.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 20,
+        "numbers_supported": 20,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 104,
+      "text": "Westmere Albion return to home soil on Saturday 24 October 2026 for a Matchday 11 clash in the Acme Valley League 2026/27. Kick-off is at 15:00 against Copperhill Town. Westmere Albion currently sit 4th of 8 in the table with 10 points from 8 matches, boasting a home record of 2 won, 1 drawn, and 2 lost.\nCopperhill Town arrive in 3rd of 8 with 13 points from 8 matches, holding a 3 points advantage over their hosts. This meeting follows their previous encounter on 5 September, where Copperhill Town secured a 4-2 victory. Both sides look to build consistency from mixed recent form."
+    },
+    {
+      "match_id": "2026-10-25-harbourside-fc-larchmont-wanderers",
+      "kind": "preview",
+      "source": "model",
+      "first_draft": {
+        "grounded": true,
+        "numbers_total": 21,
+        "numbers_supported": 21,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "first_draft_text": "Harbourside FC return to action on Sunday 25 October 2026 at 14:00, hosting Larchmont Wanderers in Matchday 11 of the Acme Valley League 2026/27.\nHarbourside FC sit 6th of 8 in the table with 7 points from 8 matches, looking to reverse a difficult run of form that includes four defeats in their last five outings. Meanwhile, Larchmont Wanderers arrive just one position higher in 5th of 8 with 9 points from their 8 matches, boasting 2 wins in their previous five fixtures. When these two sides last met on 6 September, the match ended in a 1-1 draw.",
+      "final": {
+        "grounded": true,
+        "numbers_total": 21,
+        "numbers_supported": 21,
+        "unsupported": [],
+        "stray_teams": []
+      },
+      "words": 99,
+      "text": "Harbourside FC return to action on Sunday 25 October 2026 at 14:00, hosting Larchmont Wanderers in Matchday 11 of the Acme Valley League 2026/27.\nHarbourside FC sit 6th of 8 in the table with 7 points from 8 matches, looking to reverse a difficult run of form that includes four defeats in their last five outings. Meanwhile, Larchmont Wanderers arrive just one position higher in 5th of 8 with 9 points from their 8 matches, boasting 2 wins in their previous five fixtures. When these two sides last met on 6 September, the match ended in a 1-1 draw."
+    }
+  ]
+}
